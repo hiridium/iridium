@@ -111,8 +111,8 @@ On Linux:
         ./configure --prefix=$(pwd)/depends/x86_64-w64-mingw32 --enable-cxx --disable-shared --enable-static --with-pic
         make
 
--   This will build `iridiumd.exe`, `iridium-cli.exe` and `multitchain-util.exe` in the `src` directory[<sup>1</sup>](#f1).
--   Copy `src/iridiumd.exe`, `src/iridium-cli.exe` and `src/multitchain-util.exe` to `%IRIDIUM_HOME%\src` on Windows.
+-   This will build `iridiumd.exe`, `iridium-cli.exe` and `iridium-util.exe` in the `src` directory[<sup>1</sup>](#f1).
+-   Copy `src/iridiumd.exe`, `src/iridium-cli.exe` and `src/iridium-util.exe` to `%IRIDIUM_HOME%\src` on Windows.
 
 On Windows:
 
